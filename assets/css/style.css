@@ -5,3 +5,18 @@
 .sneaker-img{
     max-height: 400px;
 }
+
+.img-wrapper {
+    max-height:250px;
+    overflow: hidden;
+}
+
+.img-card-top {
+    max-height: 250px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.img-card-top:hover {
+    transform: scale(1.2)
+}
